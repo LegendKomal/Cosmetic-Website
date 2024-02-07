@@ -1,0 +1,10 @@
+.loading {
+    width: 90px !important;
+}
+
+
+@media (0px <=width <=480px) {
+    .loading {
+        width: 70% !important;
+    }
+}

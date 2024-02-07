@@ -1,0 +1,23 @@
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    display: flex;
+    gap: 7px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.active {
+    color: #fc2779;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: black !important;
+}
